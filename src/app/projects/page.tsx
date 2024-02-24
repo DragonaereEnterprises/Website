@@ -12,8 +12,20 @@ export default function Projects() {
         </Box>
         <Box className='mainbody' display="flex" flexDirection="column">
           <p className='subtitle'>
-            Current Projects
+            Current Projects - Coming Soon™
           </p>
+          <Box className='linkgroup'>
+            <p className='links'>
+              <Link href="https://bot.dragonaere.com/">
+                Discord Bot
+              </Link>
+            </p>
+            <p className='links'>
+              <Link href="https://www.dragonaere.net/">
+                Minecraft Network
+              </Link>
+            </p>
+          </Box>
         </Box>
         <Box className="footer">
           <p>© 2024 Dragonaere Enterprises</p>

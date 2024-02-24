@@ -14,6 +14,9 @@ export default function About() {
           <p className='subtitle'>
             About Us
           </p>
+          <p className='maintext'>
+            Dragonaere Enterprises is currently just one person, {<Link className="highlightedLink" href="https://www.andrewdragon.dev">Andrew Still, known as AndrewDragon</Link>}. He is currently working on a Discord bot and a Minecraft network. He is very exited to hopefully be able to share these projects with you soon!
+          </p>
         </Box>
         <Box className="footer">
           <p>© 2024 Dragonaere Enterprises</p>
