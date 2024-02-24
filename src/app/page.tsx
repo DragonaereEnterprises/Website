@@ -11,7 +11,7 @@ export default function Home() {
           <h1 className='title'>Dragonaere</h1>
           <h1 className="title">&nbsp;</h1>
           <h1 className='title orange'>Enterprises</h1>
-        N</Box>
+        </Box>
         <Box className='mainbody' display="flex" flexDirection="column">
           <p className='subtitle'>
             Coming Soon™
