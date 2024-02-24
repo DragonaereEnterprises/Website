@@ -12,7 +12,7 @@ export default function Projects() {
         </Box>
         <Box className='mainbody' display="flex" flexDirection="column">
           <p className='subtitle'>
-            Current Projects - Coming Soon™
+            Coming Soon™
           </p>
           <Box className='linkgroup'>
             <p className='links'>
