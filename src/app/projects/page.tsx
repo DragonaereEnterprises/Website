@@ -1,7 +1,7 @@
 import { Box } from "@mui/system";
 import Link from "next/link";
 
-export default function Home() {
+export default function Projects() {
   return (
     <main>
       <Box className='main'>
@@ -12,20 +12,8 @@ export default function Home() {
         </Box>
         <Box className='mainbody' display="flex" flexDirection="column">
           <p className='subtitle'>
-            Coming Soon™
+            Current Projects
           </p>
-          <Box className='linkgroup'>
-            <p className='links'>
-              <Link href="/projects">
-                Current Projects
-              </Link>
-            </p>
-            <p className='links'>
-              <Link href="/about">
-                About
-              </Link>
-            </p>
-          </Box>
         </Box>
         <Box className="footer">
           <p>© 2024 Dragonaere Enterprises</p>
