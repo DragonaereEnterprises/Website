@@ -1,9 +1,11 @@
+import Navbar from "@/components/Navbar";
 import { Box } from "@mui/system";
 import Link from "next/link";
 
 export default function About() {
   return (
     <main>
+      <Navbar />
       <Box className='main'>
         <Box className='head'>
           <h1 className='title'>Dragonaere</h1>

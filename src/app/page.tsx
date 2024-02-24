@@ -1,15 +1,17 @@
 import { Box } from "@mui/system";
 import Link from "next/link";
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <Box className='main'>
         <Box className='head'>
           <h1 className='title'>Dragonaere</h1>
           <h1 className="title">&nbsp;</h1>
           <h1 className='title orange'>Enterprises</h1>
-        </Box>
+        N</Box>
         <Box className='mainbody' display="flex" flexDirection="column">
           <p className='subtitle'>
             Coming Soon™
