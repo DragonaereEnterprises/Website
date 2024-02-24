@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Box } from "@mui/system";
 import Link from "next/link";
@@ -24,6 +25,7 @@ export default function About() {
           <p>© 2024 Dragonaere Enterprises</p>
         </Box>
       </Box>
+      <Footer />
     </main>
   )
 }

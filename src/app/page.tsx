@@ -1,6 +1,7 @@
 import { Box } from "@mui/system";
 import Link from "next/link";
 import Navbar from '@/components/Navbar';
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -29,10 +30,8 @@ export default function Home() {
             </p>
           </Box>
         </Box>
-        <Box className="footer">
-          <p>© 2024 Dragonaere Enterprises</p>
-        </Box>
       </Box>
+      <Footer />
     </main>
   )
 }

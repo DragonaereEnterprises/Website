@@ -5,7 +5,7 @@ export default async function Navbar() {
   return (
     <nav className="navbar">
       <Link href="/">
-        <Image className='navbar-image' src="https://images.static.dragonaere.com/logos/transparent/orange.png" alt={'temp logo'} width={64} height={64} />
+        <Image className='navbar-image' src="https://images.static.dragonaere.com/logos/transparent/orange.png" alt={'Dragonaere Logo'} width={64} height={64} />
       </Link>
     </nav>
   )
