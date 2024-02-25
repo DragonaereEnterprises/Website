@@ -5,7 +5,7 @@ import { Experimental_CssVarsProvider } from "@mui/material";
 
 import './globals.css'
 
-import Theme from "../providers/ColorMode";
+import Theme from "../lib/ColorMode";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.dragonaere.com'),
