@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+const { withPlausibleProxy } = require('next-plausible')
 
 const withSerwist = require("@serwist/next").default({
   swSrc: "src/app/sw.ts",
@@ -6,7 +7,6 @@ const withSerwist = require("@serwist/next").default({
 });
 
 const nextConfig = withSerwist({
-  output: 'export',
   poweredByHeader: false,
   reactStrictMode: true,
   swcMinify: true,
@@ -21,4 +21,4 @@ const nextConfig = withSerwist({
   },
 });
 
-module.exports = nextConfig
+module.exports = withPlausibleProxy()(nextConfig);

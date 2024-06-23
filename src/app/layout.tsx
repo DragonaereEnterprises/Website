@@ -3,6 +3,8 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter'
 import getInitColorSchemeScript from "@mui/system/cssVars/getInitColorSchemeScript";
 import { Experimental_CssVarsProvider } from "@mui/material";
 
+import PlausibleProvider from 'next-plausible'
+
 import './globals.css'
 
 import Theme from "../lib/ColorMode";
@@ -62,6 +64,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <PlausibleProvider domain='dragonaere.com' selfHosted={true} customDomain='https://plausible.andrewstill.moe' trackOutboundLinks={true} />
+      </head>
       <body>
         <AppRouterCacheProvider>
           <Experimental_CssVarsProvider defaultMode="system">
