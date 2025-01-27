@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     locale: 'en_US'
   },
   icons: {
-    icon: 'https://images.static.dragonaere.com/favicon.ico',
-    shortcut: 'https://images.static.dragonaere.com/favicon.ico'
+    icon: 'https://images.static.dragonaere.com/logos/favicon.ico',
+    shortcut: 'https://images.static.dragonaere.com/logos/favicon.ico'
   }
 }
 
