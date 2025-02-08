@@ -1,7 +1,6 @@
 import { Metadata, Viewport } from 'next'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter'
-import getInitColorSchemeScript from "@mui/system/cssVars/getInitColorSchemeScript";
-import { Experimental_CssVarsProvider } from "@mui/material";
+import InitColorSchemeScript from '@mui/material/InitColorSchemeScript'
 
 import PlausibleProvider from 'next-plausible'
 
@@ -65,12 +64,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <PlausibleProvider domain='dragonaere.com' selfHosted={true} customDomain='https://plausible.andrewstill.moe' trackOutboundLinks={true} />
+        <PlausibleProvider trackLocalhost={true} domain='dragonaere.com' selfHosted={true} customDomain='https://plausible.andrewstill.moe' trackOutboundLinks={true} />
       </head>
       <body>
         <AppRouterCacheProvider>
-          <Experimental_CssVarsProvider defaultMode="system">
-            {getInitColorSchemeScript({
+            {InitColorSchemeScript({
               attribute: "data-mui-color-scheme",
               modeStorageKey: "mui-mode",
               colorSchemeStorageKey: "mui-color-scheme",
@@ -79,7 +77,6 @@ export default function RootLayout({
             <Theme>
               {children}
             </Theme>
-          </Experimental_CssVarsProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
