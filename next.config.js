@@ -21,4 +21,4 @@ const nextConfig = withSerwist({
   },
 });
 
-module.exports = withPlausibleProxy()(nextConfig);
+module.export = nextConfig;
