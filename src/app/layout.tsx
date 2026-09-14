@@ -1,8 +1,6 @@
 import { Metadata, Viewport } from 'next'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 
-import PlausibleProvider from 'next-plausible'
-
 import './globals.css'
 
 import Theme from "../lib/ColorMode";
@@ -63,7 +61,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <PlausibleProvider trackLocalhost={true} domain='dragonaere.com' selfHosted={true} customDomain='https://plausible.andrewstill.moe' trackOutboundLinks={true} /> */}
       </head>
       <body>
         <AppRouterCacheProvider>
