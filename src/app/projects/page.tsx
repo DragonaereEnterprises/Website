@@ -8,12 +8,8 @@ export default function Projects() {
     <main>
       <Navbar />
       <Box className='main'>
-        <Box className='head'>
-          <h1 className='title'>Dragonaere</h1>
-          <h1 className="title">&nbsp;</h1>
-          <h1 className='title orange'>Enterprises</h1>
-        </Box>
-        <Box className='mainbody' display="flex" flexDirection="column">
+        <h1 className='title'>Dragonaere <span className="orange">Enterprises</span></h1>
+        <Box className='mainbody'>
           <p className='subtitle'>
             Coming Soon™
           </p>
